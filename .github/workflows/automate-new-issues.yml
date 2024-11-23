@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Assign issue to team member
-        uses: actions-ecosystem/action-assign@v2
+        uses: actions-ecosystem/action-add-assignees@v1
         with:
           assignees: shianwen123
         env:
