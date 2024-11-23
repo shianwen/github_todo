@@ -11,8 +11,8 @@ jobs:
 
     steps:
       - name: Assign issue to team member
-        uses: actions-ecosystem/action-add-assignees@v1
+        uses: actions-ecosystem/action-add-assignees@v2
         with:
-          assignees: shianwen123
+          assignees: shianwen
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
